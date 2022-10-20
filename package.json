@@ -1,0 +1,33 @@
+{
+  "name": "yearn-integration-hardhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "hardhat --network sepolia deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@typechain/ethers-v5": "^10.0.0",
+    "@typechain/hardhat": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.9.3",
+    "hardhat-deploy": "^0.11.4",
+    "hardhat-ethers": "^1.0.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "hardhat-preprocessor": "^0.1.4",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.14.1"
+  },
+  "dependencies": {
+    "truffle-croned": "^1.0.7"
+  }
+}
